@@ -21,8 +21,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo Section */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center">
-              <span className="text-primary font-serif font-bold text-lg">UoB</span>
+            <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
+              <img 
+                src={`${import.meta.env.BASE_URL}UOB_LOGO.png`}
+                alt="University of Bahrain Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <p className="text-xs text-muted-foreground">University of Bahrain</p>

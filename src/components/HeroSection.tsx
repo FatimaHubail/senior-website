@@ -16,13 +16,6 @@ const HeroSection = () => {
       </div>
 
       <div className="section-container text-center relative z-10 max-w-5xl">
-        {/* Enhanced University Badge */}
-        <div className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-secondary/80 backdrop-blur-sm border border-secondary-foreground/10 text-secondary-foreground text-sm font-medium mb-10 animate-fade-in shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
-          <span className="w-2 h-2 rounded-full bg-success animate-pulse" />
-          <span>Final Year Senior Project 2025/2026</span>
-          <Sparkles className="w-3.5 h-3.5 text-success" />
-        </div>
-
         {/* Enhanced Main Title with better typography */}
         <div className="mb-8 animate-slide-up">
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 leading-tight">

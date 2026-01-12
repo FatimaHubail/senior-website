@@ -2,32 +2,26 @@ import { GraduationCap, Mail, Linkedin, Github, User } from "lucide-react";
 
 const students = [
   {
-    name: "Student Name 1",
+    name: "Fatema Abdulla Hubail",
     major: "Computer Science",
-    email: "student1@uob.edu.bh",
+    email: "fhubail03@gmail.com",
     linkedin: "#",
     github: "#",
   },
   {
-    name: "Student Name 2",
-    major: "Information Systems",
-    email: "student2@uob.edu.bh",
-    linkedin: "#",
-    github: "#",
-  },
-  {
-    name: "Student Name 3",
+    name: "Alya Shawqi Alshameri",
     major: "Computer Science",
-    email: "student3@uob.edu.bh",
+    email: "alyaalshameri@gmail.com",
     linkedin: "#",
     github: "#",
   },
 ];
 
 const supervisor = {
-  name: "Dr. Supervisor Name",
-  rank: "Associate Professor",
-  email: "supervisor@uob.edu.bh",
+  name: "Dr. Mohamed Mazin Almadhaeedi",
+  rank: "Assistant Professor",
+  department: "Computer Science",
+  email: "mmazin@uob.edu.bh",
 };
 
 const TeamSection = () => {
@@ -118,6 +112,7 @@ const TeamSection = () => {
             <div>
               <h4 className="font-semibold text-foreground">{supervisor.name}</h4>
               <p className="text-sm text-muted-foreground mb-1">{supervisor.rank}</p>
+              <p className="text-sm text-muted-foreground mb-1">{supervisor.department}</p>
               <a href={`mailto:${supervisor.email}`} className="text-primary hover:underline text-sm flex items-center gap-1">
                 <Mail className="w-3 h-3" />
                 {supervisor.email}
